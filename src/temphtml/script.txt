@@ -1,0 +1,47 @@
+// script
+document.addEventListener("DOMContentLoaded", function() {
+    const addStudentButton = document.getElementById("addStudentButton");
+    const studentList = document.getElementById("studentList");
+
+    addStudentButton.removeEventListener("click", addStudent); // Remove existing listener
+
+    addStudentButton.addEventListener("click", addStudent); // Add new listener
+});
+
+function addStudent() {
+    const nameInput = document.getElementById("name");
+    const selectedName = nameInput.options[nameInput.selectedIndex].text;
+
+    const listItem = document.createElement("li");
+    listItem.textContent = `${selectedName}`;
+
+    const studentList = document.getElementById("studentList");
+    studentList.appendChild(listItem);
+
+    // Clear the name dropdown selection
+    nameInput.selectedIndex = 0;
+}
+
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    var laboriosiLink = document.getElementById("Laboriosi");
+    var integritasLink = document.getElementById("Integritas");
+    var officiumLink = document.getElementById("Officium");
+    var respectusLink = document.getElementById("Respectus");
+
+    laboriosiLink.addEventListener("click", function () {
+        window.location.href = "laboriosi.html";
+    });
+
+    integritasLink.addEventListener("click", function () {
+        window.location.href = "integritas.html";
+    });
+
+    officiumLink.addEventListener("click", function () {
+        window.location.href = "officium.html";
+    });
+
+    respectusLink.addEventListener("click", function () {
+        window.location.href = "respectus.html";
+    });
+});

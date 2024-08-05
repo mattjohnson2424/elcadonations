@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+}
+
+.section-container {
+    margin: 20px;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.final-num {
+    font-size: 2rem;
+    text-align: center;
+}

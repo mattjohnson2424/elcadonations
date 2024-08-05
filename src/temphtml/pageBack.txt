@@ -1,0 +1,21 @@
+// pageBack
+document.addEventListener("DOMContentLoaded", function() {
+    const headerImage = document.querySelector(".header-image img");
+
+    headerImage.addEventListener("click", function() {
+        // Replace "target-page.html" with the actual URL of the page you want to redirect to
+        window.location.href = "main.html";
+    });
+
+    headerImage.addEventListener("mouseover", function() {
+        headerImage.style.transform = "scale(1.1)";
+        headerImage.style.cursor = "pointer";
+        headerImage.style.transition = "transform 1.5s";
+    });
+
+    headerImage.addEventListener("mouseout", function() {
+        headerImage.style.transform = "scale(1)";
+        headerImage.style.cursor = "default";
+        headerImage.style.transition = "transform 1.5s";
+    });
+});

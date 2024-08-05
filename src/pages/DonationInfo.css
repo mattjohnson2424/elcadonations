@@ -1,0 +1,58 @@
+.point-info-container {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 250px;
+    margin-bottom: 100px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.point-header {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.point-item {
+    /* border: 1px solid red; */
+    display: grid;
+    place-content: center;
+    padding: 5px 0;
+
+}
+
+.student-point-info {
+    text-align: center;
+}
+
+.point-row {
+    display: grid;
+    grid-template-columns: 4fr 1fr 2fr 5fr 3fr;
+    gap: 5px
+}
+
+.point-row-container {
+    cursor: pointer;
+}
+
+.point-row-container:nth-child(odd) {
+  background-color: #131313; /* First color */
+}
+
+.point-row-container:nth-child(even) {
+  background-color: #393939; /* Second color */
+}
+
+.point-row-container:nth-child(odd):hover {
+    background-color: #0e0e0e; /* First color */
+}
+
+.point-row-container:nth-child(even):hover {
+    background-color: #2f2f2f; /* Second color */
+}
+
+.point-row-expand {
+    height: 50px;
+    display: grid;
+    place-content: center;
+}

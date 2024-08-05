@@ -1,0 +1,100 @@
+body {
+    background-color: #121212;
+    text-align: left;
+}
+
+.textColor {
+    text-align: center;
+    color: #ffffff;
+}
+
+.inside-wrapper {
+    width: 50vw;
+}
+
+.wrapper-box {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+
+.input-container {
+    display: flex;
+    font-size: 20px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-container label {
+    /* width: 150px; Adjust the width as needed */
+    margin-right: 40px; /* Add spacing between label and input */
+}
+
+.nameInput, .pointsInput, #reason {
+    flex: 1;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.nameInput {
+    margin: 20px 0;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.select2-selection.select2-selection--single {
+    margin-left: 56px;
+}
+
+/* Customize the width of the Select2 dropdown container */
+.select2-container--default .select2-selection--single {
+    width: 82%; /* Set the width as needed */
+}
+
+/* Additional styles for the added student list */
+#studentList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#studentList li {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    max-height: none; /* Allow the container to grow without a height limit */
+
+}
+
+#studentListContainer {
+    margin-left: 25%;
+    margin-top: 20px; /* Add some spacing between the list and other elements */
+}
+
+.single-student-select {
+    display: flex;
+    align-items: center;
+}
+.add-points-submit {
+    margin: 0 auto;
+}
+
+.add-student-btn {
+    width: 300px;
+    margin: 10px auto;
+
+}
+
+#reason-label {
+    margin-right: none;
+}

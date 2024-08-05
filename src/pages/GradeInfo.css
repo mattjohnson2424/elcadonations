@@ -1,0 +1,50 @@
+/* pageStyles.css */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.page-content {
+    text-align: center;
+    color: white;
+    /* background-color: #242526; */
+    max-height: 90vh;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    
+}
+
+.inside-page-content {
+    width: 90vw;
+    text-align: center;
+    align-items: center;
+}
+
+.student-rank-row {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-image img {
+    width: 500px;
+    margin-bottom: -100px;
+}

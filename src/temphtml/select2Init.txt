@@ -1,0 +1,5 @@
+// select2Init
+// Initialize Select2 on the name dropdown element
+$(document).ready(function() {
+    $('#name').select2();
+});

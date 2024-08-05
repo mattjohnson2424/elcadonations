@@ -1,0 +1,96 @@
+body {
+    background-color: #121212;
+    text-align: left;
+}
+
+.textColor {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* customStyles.css */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20%;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #242526;
+    border-radius: 15px;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    min-height: 60%; /* Set a minimum height to avoid covering the header */
+    margin-top: 20%;
+}
+
+.input-container {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.input-container label {
+    width: 150px; /* Adjust the width as needed */
+    margin-right: 40px; /* Add spacing between label and input */
+}
+
+.nameInput, .pointsInput, #reason {
+    flex: 1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.select2-selection.select2-selection--single {
+    margin-left: 56px;
+}
+
+/* Customize the width of the Select2 dropdown container */
+.select2-container--default .select2-selection--single {
+    width: 82%; /* Set the width as needed */
+}
+
+/* Additional styles for the added student list */
+#studentList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#studentList li {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    max-height: none; /* Allow the container to grow without a height limit */
+
+}
+
+#studentListContainer {
+    margin-left: 25%;
+    margin-top: 20px; /* Add some spacing between the list and other elements */
+}
+
+.student-input-container {
+    flex-direction: column;
+}
+
